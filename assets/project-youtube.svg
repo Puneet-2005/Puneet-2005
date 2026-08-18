@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="255" viewBox="0 0 1200 255" role="img" aria-labelledby="title desc">
+  <title id="title">YT.Intelligence</title>
+  <desc id="desc">Local AI video summarization using FastAPI, Ollama, Python, and large language models.</desc>
+  <defs><pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#163326" opacity=".22"/></pattern></defs>
+  <rect width="1200" height="255" rx="4" fill="#050805"/><rect x="1" y="1" width="1198" height="253" rx="4" fill="none" stroke="#1d3d29"/><rect width="1200" height="255" fill="url(#grid)"/>
+  <g font-family="monospace, Courier New">
+    <text x="30" y="37" fill="#6b7280" font-size="11" letter-spacing="2">MISSION // 004</text><text x="1168" y="37" text-anchor="end" fill="#a855f7" font-size="11">LOCAL AI PIPELINE</text>
+    <path d="M30 50h1138" stroke="#173b27"/>
+    <text x="30" y="103" fill="#e6edf3" font-size="32" font-weight="700" letter-spacing="3">YT.INTELLIGENCE</text>
+    <text x="30" y="132" fill="#39ff14" font-size="14" letter-spacing="2">LOCAL AI VIDEO SUMMARIZATION</text>
+    <g transform="translate(30 157)" font-size="11">
+      <rect width="90" height="28" fill="#0c1a10" stroke="#28573a"/><text x="45" y="18" text-anchor="middle" fill="#e6edf3">FASTAPI</text>
+      <rect x="100" width="82" height="28" fill="#07161a" stroke="#17606a"/><text x="141" y="18" text-anchor="middle" fill="#e6edf3">OLLAMA</text>
+      <rect x="192" width="82" height="28" fill="#0c1a10" stroke="#28573a"/><text x="233" y="18" text-anchor="middle" fill="#e6edf3">PYTHON</text>
+      <rect x="284" width="66" height="28" fill="#0f0b16" stroke="#6f3ea5"/><text x="317" y="18" text-anchor="middle" fill="#e6edf3">LLMS</text>
+    </g>
+    <text x="30" y="224" fill="#6b7280" font-size="10">OPEN REPOSITORY  ↗  github.com/Puneet-2005/youtube-sumerization-ollama</text>
+  </g>
+  <g transform="translate(748 77)" font-family="monospace, Courier New">
+    <rect width="420" height="127" fill="#070b08" stroke="#20452d"/>
+    <rect x="18" y="18" width="92" height="91" fill="#0a110c" stroke="#173b27"/><path d="M52 42l34 22-34 22Z" fill="#39ff14" opacity=".8"/>
+    <g fill="#1e5030"><rect x="130" y="23" width="254" height="7"/><rect x="130" y="41" width="212" height="7"/><rect x="130" y="59" width="236" height="7"/><rect x="130" y="77" width="180" height="7"/></g>
+    <rect x="130" y="96" width="85" height="12" fill="#00f5ff" opacity=".55"/><text x="226" y="106" fill="#6b7280" font-size="8">SUMMARY READY</text>
+  </g>
+</svg>

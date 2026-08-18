@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="690" viewBox="0 0 1200 690" role="img" aria-labelledby="title desc">
+  <title id="title">Technical capability matrix</title>
+  <desc id="desc">Technologies grouped by language, frontend, backend, AI and data, database, and infrastructure.</desc>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#143420" opacity=".2"/></pattern>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <style>
+    .panel{fill:#070b08;stroke:#1d3d29}.label{font:700 13px monospace;letter-spacing:2px;fill:#39ff14}.chip{fill:#0a130d;stroke:#28573a}.chip2{fill:#071216;stroke:#17515a}.txt{font:13px monospace;fill:#e6edf3}.idx{font:10px monospace;fill:#6b7280;letter-spacing:1px}
+  </style>
+  <rect width="1200" height="690" rx="4" fill="#050805"/>
+  <rect x="1" y="1" width="1198" height="688" rx="4" fill="none" stroke="#1d3d29"/>
+  <rect width="1200" height="690" fill="url(#grid)"/>
+  <g font-family="monospace, Courier New">
+    <text x="30" y="39" fill="#39ff14" font-size="14" letter-spacing="2">SYSTEM CAPABILITIES // TECH MATRIX</text>
+    <text x="1170" y="39" text-anchor="end" fill="#6b7280" font-size="11">NO VANITY METRICS // VERIFIED TOOLCHAIN</text>
+  </g>
+  <path d="M30 52h1140" stroke="#173b27"/>
+
+  <g transform="translate(30 78)">
+    <rect class="panel" width="555" height="170"/><text class="idx" x="18" y="27">CAP.01</text><text class="label" x="90" y="27">LANGUAGES</text><circle cx="525" cy="23" r="3" fill="#39ff14" filter="url(#glow)"/>
+    <g transform="translate(18 52)">
+      <rect class="chip" width="122" height="38"/><text class="txt" x="61" y="24" text-anchor="middle">PYTHON</text>
+      <rect class="chip2" x="132" width="100" height="38"/><text class="txt" x="182" y="24" text-anchor="middle">C++</text>
+      <rect class="chip" x="242" width="100" height="38"/><text class="txt" x="292" y="24" text-anchor="middle">JAVA</text>
+      <rect class="chip2" x="352" width="167" height="38"/><text class="txt" x="435" y="24" text-anchor="middle">JAVASCRIPT</text>
+      <rect class="chip2" y="50" width="152" height="38"/><text class="txt" x="76" y="74" text-anchor="middle">TYPESCRIPT</text>
+      <rect class="chip" x="162" y="50" width="80" height="38"/><text class="txt" x="202" y="74" text-anchor="middle">C</text>
+    </g>
+  </g>
+
+  <g transform="translate(615 78)">
+    <rect class="panel" width="555" height="170"/><text class="idx" x="18" y="27">CAP.02</text><text class="label" x="90" y="27">FRONTEND</text><circle cx="525" cy="23" r="3" fill="#00f5ff"/>
+    <g transform="translate(18 52)">
+      <rect class="chip2" width="110" height="38"/><text class="txt" x="55" y="24" text-anchor="middle">REACT</text>
+      <rect class="chip" x="120" width="112" height="38"/><text class="txt" x="176" y="24" text-anchor="middle">NEXT.JS</text>
+      <rect class="chip2" x="242" width="90" height="38"/><text class="txt" x="287" y="24" text-anchor="middle">HTML</text>
+      <rect class="chip" x="342" width="80" height="38"/><text class="txt" x="382" y="24" text-anchor="middle">CSS</text>
+      <rect class="chip2" y="50" width="128" height="38"/><text class="txt" x="64" y="74" text-anchor="middle">TAILWIND</text>
+    </g>
+  </g>
+
+  <g transform="translate(30 270)">
+    <rect class="panel" width="555" height="170"/><text class="idx" x="18" y="27">CAP.03</text><text class="label" x="90" y="27">BACKEND</text><circle cx="525" cy="23" r="3" fill="#39ff14"/>
+    <g transform="translate(18 52)">
+      <rect class="chip" width="130" height="38"/><text class="txt" x="65" y="24" text-anchor="middle">FASTAPI</text>
+      <rect class="chip2" x="140" width="108" height="38"/><text class="txt" x="194" y="24" text-anchor="middle">FLASK</text>
+      <rect class="chip" x="258" width="125" height="38"/><text class="txt" x="320" y="24" text-anchor="middle">NODE.JS</text>
+    </g>
+    <path d="M18 143h519" stroke="#173b27"/><text class="idx" x="18" y="158">SERVICE LAYER // API // RUNTIME</text>
+  </g>
+
+  <g transform="translate(615 270)">
+    <rect class="panel" width="555" height="170"/><text class="idx" x="18" y="27">CAP.04</text><text class="label" x="90" y="27">AI / DATA</text><circle cx="525" cy="23" r="3" fill="#a855f7"/>
+    <g transform="translate(18 52)">
+      <rect class="chip2" width="122" height="38"/><text class="txt" x="61" y="24" text-anchor="middle">PYTORCH</text>
+      <rect class="chip" x="132" width="158" height="38"/><text class="txt" x="211" y="24" text-anchor="middle">SCIKIT-LEARN</text>
+      <rect class="chip2" x="300" width="105" height="38"/><text class="txt" x="352" y="24" text-anchor="middle">PANDAS</text>
+      <rect class="chip" y="50" width="105" height="38"/><text class="txt" x="52" y="74" text-anchor="middle">NUMPY</text>
+    </g>
+  </g>
+
+  <g transform="translate(30 462)">
+    <rect class="panel" width="555" height="170"/><text class="idx" x="18" y="27">CAP.05</text><text class="label" x="90" y="27">DATABASE</text><circle cx="525" cy="23" r="3" fill="#00f5ff"/>
+    <g transform="translate(18 52)">
+      <rect class="chip" width="145" height="38"/><text class="txt" x="72" y="24" text-anchor="middle">POSTGRESQL</text>
+      <rect class="chip2" x="155" width="105" height="38"/><text class="txt" x="207" y="24" text-anchor="middle">MYSQL</text>
+      <rect class="chip" x="270" width="125" height="38"/><text class="txt" x="332" y="24" text-anchor="middle">MONGODB</text>
+      <rect class="chip2" y="50" width="105" height="38"/><text class="txt" x="52" y="74" text-anchor="middle">REDIS</text>
+    </g>
+  </g>
+
+  <g transform="translate(615 462)">
+    <rect class="panel" width="555" height="170"/><text class="idx" x="18" y="27">CAP.06</text><text class="label" x="90" y="27">INFRASTRUCTURE</text><circle cx="525" cy="23" r="3" fill="#39ff14"/>
+    <g transform="translate(18 52)">
+      <rect class="chip" width="80" height="38"/><text class="txt" x="40" y="24" text-anchor="middle">GIT</text>
+      <rect class="chip2" x="90" width="112" height="38"/><text class="txt" x="146" y="24" text-anchor="middle">GITHUB</text>
+      <rect class="chip" x="212" width="112" height="38"/><text class="txt" x="268" y="24" text-anchor="middle">DOCKER</text>
+      <rect class="chip2" x="334" width="102" height="38"/><text class="txt" x="385" y="24" text-anchor="middle">LINUX</text>
+    </g>
+    <path d="M18 143h519" stroke="#173b27"/><text class="idx" x="18" y="158">VERSION // CONTAINER // OPERATING SYSTEM</text>
+  </g>
+  <g transform="translate(30 655)" font-family="monospace, Courier New" font-size="10">
+    <text fill="#6b7280">MATRIX NOTE:</text><text x="78" fill="#e6edf3"> CATEGORIES REPRESENT WORKING TOOLING — NO ARBITRARY PROFICIENCY SCORES.</text>
+    <text x="1140" text-anchor="end" fill="#39ff14">READY</text>
+  </g>
+</svg>

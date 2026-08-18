@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="255" viewBox="0 0 1200 255" role="img" aria-labelledby="title desc">
+  <title id="title">Finance.OS</title>
+  <desc id="desc">A full-stack financial platform using Next.js, TypeScript, PostgreSQL, and Prisma.</desc>
+  <defs><pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#163326" opacity=".22"/></pattern></defs>
+  <rect width="1200" height="255" rx="4" fill="#050805"/><rect x="1" y="1" width="1198" height="253" rx="4" fill="none" stroke="#1d3d29"/><rect width="1200" height="255" fill="url(#grid)"/>
+  <g font-family="monospace, Courier New">
+    <text x="30" y="37" fill="#6b7280" font-size="11" letter-spacing="2">MISSION // 003</text><text x="1168" y="37" text-anchor="end" fill="#39ff14" font-size="11">FULL-STACK BUILD</text>
+    <path d="M30 50h1138" stroke="#173b27"/>
+    <text x="30" y="103" fill="#e6edf3" font-size="32" font-weight="700" letter-spacing="3">FINANCE.OS</text>
+    <text x="30" y="132" fill="#00f5ff" font-size="14" letter-spacing="2">FULL-STACK FINANCIAL PLATFORM</text>
+    <g transform="translate(30 157)" font-size="11">
+      <rect width="86" height="28" fill="#0c1a10" stroke="#28573a"/><text x="43" y="18" text-anchor="middle" fill="#e6edf3">NEXT.JS</text>
+      <rect x="96" width="118" height="28" fill="#07161a" stroke="#17606a"/><text x="155" y="18" text-anchor="middle" fill="#e6edf3">TYPESCRIPT</text>
+      <rect x="224" width="120" height="28" fill="#0c1a10" stroke="#28573a"/><text x="284" y="18" text-anchor="middle" fill="#e6edf3">POSTGRESQL</text>
+      <rect x="354" width="86" height="28" fill="#07161a" stroke="#17606a"/><text x="397" y="18" text-anchor="middle" fill="#e6edf3">PRISMA</text>
+    </g>
+    <text x="30" y="224" fill="#6b7280" font-size="10">OPEN REPOSITORY  ↗  github.com/Puneet-2005/personal-finance-dashboard</text>
+  </g>
+  <g transform="translate(760 78)">
+    <rect width="408" height="125" fill="#070b08" stroke="#20452d"/>
+    <g transform="translate(24 22)"><rect y="51" width="34" height="28" fill="#173b27"/><rect x="49" y="37" width="34" height="42" fill="#205d35"/><rect x="98" y="18" width="34" height="61" fill="#2ca448"/><rect x="147" y="30" width="34" height="49" fill="#23823b"/><rect x="196" width="34" height="79" fill="#39ff14" opacity=".8"/><rect x="245" y="12" width="34" height="67" fill="#00f5ff" opacity=".65"/></g>
+    <path d="M22 108h362" stroke="#173b27"/><text x="384" y="118" text-anchor="end" fill="#6b7280" font-family="monospace, Courier New" font-size="8">LEDGER SIGNAL</text>
+  </g>
+</svg>

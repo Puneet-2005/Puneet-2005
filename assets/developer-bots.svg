@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
+  <title id="title">Developer bot formation</title>
+  <desc id="desc">An original retro pixel formation where fewer bots remain in each row, representing progress through a build queue.</desc>
+  <defs>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#143420" opacity=".18"/></pattern>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="1.8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <g id="bot">
+      <rect x="12" width="8" height="8"/><rect x="36" width="8" height="8"/>
+      <rect x="4" y="8" width="48" height="8"/><rect y="16" width="56" height="24"/>
+      <rect x="8" y="40" width="8" height="8"/><rect x="40" y="40" width="8" height="8"/>
+      <rect x="8" y="48" width="8" height="8"/><rect x="40" y="48" width="8" height="8"/>
+      <rect x="12" y="20" width="8" height="8" fill="#050805"/><rect x="36" y="20" width="8" height="8" fill="#050805"/>
+      <rect x="24" y="32" width="8" height="4" fill="#050805"/>
+    </g>
+  </defs>
+  <rect width="1200" height="330" rx="4" fill="#050805"/><rect x="1" y="1" width="1198" height="328" rx="4" fill="none" stroke="#1d3d29"/><rect width="1200" height="330" fill="url(#grid)"/>
+  <g font-family="monospace, Courier New"><text x="30" y="38" fill="#39ff14" font-size="12" letter-spacing="2">CONTRIBUTION ARMY // BUILD QUEUE</text><text x="1170" y="38" text-anchor="end" fill="#6b7280" font-size="10">ORIGINAL PIXEL UNITS // PROGRESS DECAY</text></g>
+  <path d="M30 52h1140" stroke="#173b27"/>
+  <g fill="#e6edf3" opacity=".8"><rect x="86" y="76" width="3" height="3"/><rect x="222" y="65" width="3" height="3"/><rect x="401" y="85" width="2" height="2"/><rect x="614" y="67" width="3" height="3"/><rect x="776" y="87" width="2" height="2"/><rect x="967" y="69" width="3" height="3"/><rect x="1104" y="92" width="2" height="2"/></g>
+
+  <g transform="translate(86 92)" fill="#39ff14" filter="url(#glow)">
+    <use href="#bot" x="0"/><use href="#bot" x="100"/><use href="#bot" x="200"/><use href="#bot" x="300"/><use href="#bot" x="400"/><use href="#bot" x="500"/><use href="#bot" x="600"/><use href="#bot" x="700"/><use href="#bot" x="800"/><use href="#bot" x="900"/>
+  </g>
+  <g transform="translate(136 166)" fill="#00f5ff" opacity=".78">
+    <use href="#bot" x="0"/><use href="#bot" x="115"/><use href="#bot" x="230"/><use href="#bot" x="345"/><use href="#bot" x="460"/><use href="#bot" x="575"/><use href="#bot" x="690"/><use href="#bot" x="805"/>
+  </g>
+  <g transform="translate(274 240)" fill="#39ff14" opacity=".48">
+    <use href="#bot" x="0"/><use href="#bot" x="145"/><use href="#bot" x="290"/><use href="#bot" x="435"/><use href="#bot" x="580"/>
+  </g>
+  <g fill="#a855f7" opacity=".5"><rect x="1040" y="261" width="8" height="8"/><rect x="1056" y="261" width="8" height="8"/><rect x="1048" y="253" width="8" height="8"/></g>
+  <path d="M40 304h1120" stroke="#173b27"/><g font-family="monospace, Courier New" font-size="9"><text x="40" y="320" fill="#6b7280">QUEUE START</text><text x="600" y="320" text-anchor="middle" fill="#39ff14">BUILD → TEST → LEARN → ITERATE</text><text x="1160" y="320" text-anchor="end" fill="#6b7280">PROGRESS</text></g>
+</svg>

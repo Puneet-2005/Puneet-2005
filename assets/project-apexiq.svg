@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
+  <title id="title">ApexIQ</title>
+  <desc id="desc">AI-driven Formula 1 energy optimisation and race intelligence platform.</desc>
+  <defs>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#163326" opacity=".25"/></pattern>
+    <linearGradient id="energy" x1="0" x2="1"><stop stop-color="#39ff14"/><stop offset=".72" stop-color="#00f5ff"/><stop offset="1" stop-color="#a855f7"/></linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1200" height="390" rx="4" fill="#050805"/>
+  <rect x="1" y="1" width="1198" height="388" rx="4" fill="none" stroke="#39ff14" stroke-opacity=".65"/>
+  <rect x="7" y="7" width="1186" height="376" fill="none" stroke="#183d27"/>
+  <rect width="1200" height="390" fill="url(#grid)"/>
+  <rect x="0" width="9" height="390" fill="url(#energy)" opacity=".85"/>
+
+  <g font-family="monospace, Courier New">
+    <text x="36" y="42" fill="#39ff14" font-size="12" letter-spacing="2">PRIORITY MISSION // 001</text>
+    <text x="1160" y="42" text-anchor="end" fill="#39ff14" font-size="12">● ACTIVE DEVELOPMENT</text>
+    <path d="M36 56h1124" stroke="#1d3d29"/>
+    <text x="36" y="122" fill="#e6edf3" font-size="48" font-weight="700" letter-spacing="4">APEXIQ</text>
+    <text x="36" y="154" fill="#00f5ff" font-size="17" letter-spacing="2">F1 ENERGY &amp; RACE INTELLIGENCE</text>
+    <text x="36" y="202" fill="#9aa4b2" font-size="14">AI-driven Formula 1 energy optimisation and race intelligence platform</text>
+    <text x="36" y="225" fill="#9aa4b2" font-size="14">exploring energy deployment, overtaking scenarios and driver-specific</text>
+    <text x="36" y="248" fill="#9aa4b2" font-size="14">strategic decisions.</text>
+
+    <g transform="translate(36 285)" font-size="12">
+      <rect width="76" height="30" fill="#0c1a10" stroke="#2d6b3e"/><text x="38" y="20" text-anchor="middle" fill="#39ff14">AI</text>
+      <rect x="88" width="100" height="30" fill="#07161a" stroke="#17606a"/><text x="138" y="20" text-anchor="middle" fill="#00f5ff">PYTHON</text>
+      <rect x="200" width="130" height="30" fill="#0c1a10" stroke="#2d6b3e"/><text x="265" y="20" text-anchor="middle" fill="#e6edf3">SIMULATION</text>
+      <rect x="342" width="114" height="30" fill="#07161a" stroke="#17606a"/><text x="399" y="20" text-anchor="middle" fill="#e6edf3">STRATEGY</text>
+    </g>
+    <text x="36" y="356" fill="#6b7280" font-size="11">OPEN REPOSITORY  ↗  github.com/Puneet-2005/apexiq-f1-energy-optimization</text>
+  </g>
+
+  <g transform="translate(650 78)">
+    <rect width="510" height="255" fill="#070b08" stroke="#20452d"/>
+    <text x="18" y="26" fill="#6b7280" font-family="monospace, Courier New" font-size="10" letter-spacing="2">ENERGY DEPLOYMENT // LIVE SIMULATION</text>
+    <path d="M18 44h474" stroke="#173b27"/>
+    <path d="M24 198 C58 198 62 81 112 81 S166 176 212 176 266 70 315 70 368 158 411 158 449 104 486 104" fill="none" stroke="url(#energy)" stroke-width="3" filter="url(#glow)"/>
+    <path d="M24 198 C58 198 62 81 112 81 S166 176 212 176 266 70 315 70 368 158 411 158 449 104 486 104V222H24Z" fill="#39ff14" opacity=".055"/>
+    <g stroke="#173b27" stroke-dasharray="3 5"><path d="M24 70h462"/><path d="M24 112h462"/><path d="M24 154h462"/><path d="M24 198h462"/></g>
+    <g fill="#00f5ff"><circle cx="112" cy="81" r="4"/><circle cx="315" cy="70" r="4"/><circle cx="486" cy="104" r="4"/></g>
+    <g font-family="monospace, Courier New" font-size="9" fill="#6b7280">
+      <text x="24" y="241">LAP 01</text><text x="231" y="241">RACE WINDOW</text><text x="450" y="241">LAP N</text>
+    </g>
+    <g transform="translate(390 50)" font-family="monospace, Courier New">
+      <rect width="94" height="36" fill="#08150c" stroke="#28573a"/><text x="8" y="14" fill="#6b7280" font-size="8">MODEL</text><text x="8" y="28" fill="#39ff14" font-size="11">OPTIMIZING</text>
+    </g>
+    <path d="M0 18V0h18M492 0h18v18M0 237v18h18M492 255h18v-18" fill="none" stroke="#39ff14" opacity=".65"/>
+  </g>
+</svg>
