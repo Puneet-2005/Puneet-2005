@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="./assets/profile-card.svg" width="100%" alt="01 — System profile for Puneet M P Bharadwaj" />
+  <img src="./assets/profile-card.png" width="100%" alt="01 — System profile for Puneet M P Bharadwaj with his GitHub avatar" />
 </p>
 
 <p align="center">
@@ -38,18 +38,16 @@
   <img src="./assets/project-clickhouse.svg" width="100%" alt="ClickHouse — forked from ClickHouse/ClickHouse" />
 </a>
 
-<!-- Replace generic Chess.com play link with personal chess profile later if desired -->
-<a href="https://www.chess.com/play/online">
-  <img src="./assets/chess-board.svg" width="100%" alt="Chess terminal — play chess" />
-</a>
-<!-- Future option: integrate a GitHub Actions-powered README chess implementation without client-side JavaScript. -->
-
 <p align="center">
-  <img src="./assets/contribution-banner.svg" width="100%" alt="04 — Development activity" />
+  <img src="./assets/chess-board.svg" width="100%" alt="03 — Animated Italian Game chess simulation" />
 </p>
 
 <p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Puneet-2005&amp;bg_color=050805&amp;color=6b7280&amp;line=39ff14&amp;point=00f5ff&amp;area=true&amp;area_color=143d24&amp;hide_border=true&amp;custom_title=CONTRIBUTION%20SIGNAL&amp;radius=2" alt="GitHub contribution activity graph" />
+  <img src="./assets/contribution-banner.svg" width="100%" alt="04 — Development signal" />
+</p>
+
+<p align="center">
+  <img src="./assets/contribution-total.svg" width="100%" alt="GitHub contribution total for Puneet-2005 over the last 12 months" />
 </p>
 
 <picture>

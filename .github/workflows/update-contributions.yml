@@ -1,0 +1,72 @@
+name: Update contribution total
+
+on:
+  schedule:
+    - cron: "20 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-contributions-main
+  cancel-in-progress: false
+
+jobs:
+  update:
+    if: ${{ github.repository == 'Puneet-2005/Puneet-2005' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Check out main
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: main
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Fetch contribution total
+        id: contributions
+        shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CONTRIBUTION_USER: Puneet-2005
+        run: |
+          query='query($login: String!) { user(login: $login) { contributionsCollection { contributionCalendar { totalContributions } } } }'
+          total="$(gh api graphql -f query="$query" -F login="$CONTRIBUTION_USER" --jq '.data.user.contributionsCollection.contributionCalendar.totalContributions')"
+
+          if [[ ! "$total" =~ ^[0-9]+$ ]]; then
+            echo "GitHub returned an invalid contribution total: $total" >&2
+            exit 1
+          fi
+
+          echo "total=$total" >> "$GITHUB_OUTPUT"
+
+      - name: Render contribution card
+        shell: bash
+        run: >-
+          python3 scripts/generate_contribution_card.py
+          --count "${{ steps.contributions.outputs.total }}"
+          --output assets/contribution-total.svg
+
+      - name: Validate generated SVG
+        shell: bash
+        run: python3 -c "import xml.etree.ElementTree as ET; ET.parse('assets/contribution-total.svg')"
+
+      - name: Commit changed total
+        shell: bash
+        run: |
+          git add -- assets/contribution-total.svg
+
+          if git diff --cached --quiet -- assets/contribution-total.svg; then
+            echo "Contribution total is unchanged."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: update contribution total"
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main

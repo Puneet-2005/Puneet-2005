@@ -1,0 +1,76 @@
+#!/usr/bin/env python3
+"""Render the deterministic GitHub contribution-total card."""
+
+from __future__ import annotations
+
+import argparse
+from pathlib import Path
+
+
+def render(count: int) -> str:
+    count_text = f"{count:,}"
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
+  <title id="title">{count_text} GitHub contributions in the last 12 months</title>
+  <desc id="desc">Live GitHub GraphQL contribution total for Puneet-2005, refreshed daily by GitHub Actions.</desc>
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#163326" opacity=".24"/></pattern>
+    <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#39ff14"/><stop offset=".58" stop-color="#00f5ff"/><stop offset="1" stop-color="#a855f7"/></linearGradient>
+    <filter id="glow" x="-30%" y="-50%" width="160%" height="200%"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1200" height="330" rx="4" fill="#050805"/>
+  <rect x="1" y="1" width="1198" height="328" rx="4" fill="none" stroke="#1d3d29"/>
+  <rect width="1200" height="330" fill="url(#grid)"/>
+  <path d="M22 70V22h48M1130 22h48v48M22 260v48h48M1130 308h48v-48" fill="none" stroke="#39ff14" stroke-width="2" opacity=".72"/>
+
+  <g font-family="Consolas,Menlo,monospace">
+    <text x="46" y="46" fill="#39ff14" font-size="15" letter-spacing="2">04.1 // CONTRIBUTION TOTAL</text>
+    <circle cx="1045" cy="40" r="4" fill="#39ff14" filter="url(#glow)"><animate attributeName="opacity" values="1;.28;1" dur="2.4s" repeatCount="indefinite"/></circle>
+    <text x="1061" y="45" fill="#39ff14" font-size="12" letter-spacing="1">FEED ONLINE</text>
+    <path d="M46 61h1108" stroke="#173b27"/>
+
+    <g transform="translate(46 88)">
+      <rect width="500" height="190" fill="#070b08" stroke="#28573a"/>
+      <path d="M0 18V0h18M482 0h18v18M0 172v18h18M482 190h18v-18" fill="none" stroke="#00f5ff" opacity=".6"/>
+      <text x="24" y="31" fill="#6b7280" font-size="12" letter-spacing="2">TOTAL CONTRIBUTIONS</text>
+      <text x="24" y="119" fill="#e6edf3" font-size="86" font-weight="700" letter-spacing="2">{count_text}</text>
+      <rect x="24" y="139" width="452" height="3" fill="url(#signal)" opacity=".72" filter="url(#glow)"/>
+      <text x="24" y="171" fill="#39ff14" font-size="14" letter-spacing="2">LAST 12 MONTHS</text>
+    </g>
+
+    <g transform="translate(570 88)">
+      <rect width="584" height="190" fill="#070b08" stroke="#20452d"/>
+      <text x="22" y="31" fill="#00f5ff" font-size="14" letter-spacing="2">GITHUB // TELEMETRY SNAPSHOT</text>
+      <path d="M22 45h540" stroke="#173b27"/>
+      <text x="22" y="77" fill="#6b7280" font-size="11" letter-spacing="2">IDENTITY</text>
+      <text x="176" y="77" fill="#e6edf3" font-size="15">@Puneet-2005</text>
+      <text x="22" y="108" fill="#6b7280" font-size="11" letter-spacing="2">WINDOW</text>
+      <text x="176" y="108" fill="#e6edf3" font-size="15">ROLLING 12 MONTHS</text>
+      <text x="22" y="139" fill="#6b7280" font-size="11" letter-spacing="2">SOURCE</text>
+      <text x="176" y="139" fill="#e6edf3" font-size="15">GITHUB GRAPHQL</text>
+      <text x="22" y="170" fill="#6b7280" font-size="11" letter-spacing="2">REFRESH</text>
+      <text x="176" y="170" fill="#39ff14" font-size="15">DAILY // AUTOMATED</text>
+      <g transform="translate(456 65)" fill="#173b27">
+        <rect width="12" height="12"/><rect x="18" width="12" height="12" fill="#1e5030"/><rect x="36" width="12" height="12" fill="#39ff14" opacity=".65"/>
+        <rect y="18" width="12" height="12" fill="#1e5030"/><rect x="18" y="18" width="12" height="12" fill="#39ff14" opacity=".8"/><rect x="36" y="18" width="12" height="12" fill="#00f5ff" opacity=".7"/>
+      </g>
+    </g>
+    <text x="46" y="306" fill="#6b7280" font-size="11" letter-spacing="1">PUBLIC PROFILE SIGNAL // GENERATED FROM ONE VERIFIED METRIC</text>
+    <text x="1154" y="306" text-anchor="end" fill="#a855f7" font-size="11" letter-spacing="1">NO THIRD-PARTY STATS SERVICE</text>
+  </g>
+</svg>
+'''
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--count", required=True, type=int)
+    parser.add_argument("--output", required=True, type=Path)
+    args = parser.parse_args()
+    if args.count < 0:
+        parser.error("--count must be zero or greater")
+    args.output.parent.mkdir(parents=True, exist_ok=True)
+    args.output.write_text(render(args.count), encoding="utf-8", newline="\n")
+
+
+if __name__ == "__main__":
+    main()
