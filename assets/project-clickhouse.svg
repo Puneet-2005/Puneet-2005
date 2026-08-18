@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="275" viewBox="0 0 1200 275" role="img" aria-labelledby="title desc">
+  <title id="title">ClickHouse upstream fork</title>
+  <desc id="desc">A public fork of ClickHouse, clearly attributed to the ClickHouse/ClickHouse upstream repository.</desc>
+  <defs><pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#163326" opacity=".22"/></pattern><filter id="glow"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+  <rect width="1200" height="275" rx="4" fill="#050805"/><rect x="1" y="1" width="1198" height="273" rx="4" fill="none" stroke="#a855f7" stroke-opacity=".55"/><rect width="1200" height="275" fill="url(#grid)"/>
+  <g font-family="monospace, Courier New">
+    <text x="30" y="37" fill="#6b7280" font-size="11" letter-spacing="2">PINNED // 06</text>
+    <rect x="835" y="16" width="333" height="30" fill="#130d1b" stroke="#6f3ea5"/><text x="1001" y="36" text-anchor="middle" fill="#a855f7" font-size="11" font-weight="700" letter-spacing="1">FORKED FROM ClickHouse/ClickHouse</text>
+    <path d="M30 55h1138" stroke="#173b27"/>
+    <text x="30" y="108" fill="#e6edf3" font-size="34" font-weight="700" letter-spacing="3">CLICKHOUSE</text>
+    <text x="30" y="137" fill="#00f5ff" font-size="14" letter-spacing="2">REAL-TIME ANALYTICS DATABASE // UPSTREAM FORK</text>
+    <text x="30" y="171" fill="#9aa4b2" font-size="12">Public fork of the upstream open-source column-oriented DBMS</text>
+    <text x="30" y="190" fill="#9aa4b2" font-size="12">for real-time analytical queries.</text>
+    <g transform="translate(30 207)" font-size="10"><text fill="#39ff14">[ C++ ]</text><text x="66" fill="#00f5ff">[ SQL ]</text><text x="127" fill="#39ff14">[ OLAP ]</text><text x="198" fill="#00f5ff">[ COLUMNAR DB ]</text></g>
+    <text x="30" y="258" fill="#6b7280" font-size="10">OPEN FORK  ↗  github.com/Puneet-2005/ClickHouse</text>
+  </g>
+  <g transform="translate(790 82)" font-family="monospace, Courier New">
+    <rect width="378" height="137" fill="#070b08" stroke="#20452d"/>
+    <g transform="translate(24 24)" fill="none" stroke="#39ff14" stroke-width="8" filter="url(#glow)"><path d="M0 0v82M18 0v82M36 0v82M54 0v82M72 0v82"/><path d="M90 20v42" stroke="#00f5ff"/></g>
+    <text x="142" y="40" fill="#6b7280" font-size="9" letter-spacing="2">PROVENANCE</text>
+    <text x="142" y="68" fill="#e6edf3" font-size="14">UPSTREAM // LINKED</text>
+    <text x="142" y="93" fill="#a855f7" font-size="11">ClickHouse/ClickHouse</text>
+    <path d="M142 108h210" stroke="#173b27"/><text x="352" y="125" text-anchor="end" fill="#6b7280" font-size="8">ATTRIBUTION VERIFIED</text>
+  </g>
+</svg>

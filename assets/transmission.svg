@@ -1,19 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="185" viewBox="0 0 1200 185" role="img" aria-labelledby="title desc">
   <title id="title">Transmission</title>
-  <desc id="desc">Public contact channels for Puneet-2005, with email and LinkedIn awaiting public details.</desc>
+  <desc id="desc">Public GitHub, email, and LinkedIn contact channels for Puneet-2005.</desc>
   <defs><pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#163326" opacity=".22"/></pattern></defs>
   <rect width="1200" height="185" rx="4" fill="#050805"/><rect x="1" y="1" width="1198" height="183" rx="4" fill="none" stroke="#1d3d29"/><rect width="1200" height="185" fill="url(#grid)"/>
   <g font-family="monospace, Courier New">
-    <text x="30" y="38" fill="#39ff14" font-size="13" letter-spacing="2">04 // TRANSMISSION</text><text x="1170" y="38" text-anchor="end" fill="#6b7280" font-size="10">SELECT A PUBLIC CHANNEL</text>
+    <text x="30" y="38" fill="#39ff14" font-size="13" letter-spacing="2">05 // TRANSMISSION</text><text x="1170" y="38" text-anchor="end" fill="#6b7280" font-size="10">SELECT A PUBLIC CHANNEL</text>
     <path d="M30 52h1140" stroke="#173b27"/>
     <g transform="translate(30 75)">
       <rect width="350" height="78" fill="#070b08" stroke="#2b6640"/><text x="18" y="25" fill="#6b7280" font-size="9" letter-spacing="2">CHANNEL.01 // GITHUB</text><text x="18" y="53" fill="#39ff14" font-size="15">@Puneet-2005  ↗</text><circle cx="322" cy="39" r="5" fill="#39ff14"/>
     </g>
     <g transform="translate(425 75)">
-      <rect width="350" height="78" fill="#070b08" stroke="#20452d"/><text x="18" y="25" fill="#6b7280" font-size="9" letter-spacing="2">CHANNEL.02 // EMAIL</text><text x="18" y="53" fill="#e6edf3" font-size="13">NOT PUBLIC</text><circle cx="322" cy="39" r="5" fill="#6b7280"/>
+      <rect width="350" height="78" fill="#070b08" stroke="#17606a"/><text x="18" y="25" fill="#6b7280" font-size="9" letter-spacing="2">CHANNEL.02 // EMAIL</text><text x="18" y="53" fill="#00f5ff" font-size="12">puneetbharadwaj0@gmail.com</text><circle cx="322" cy="39" r="5" fill="#00f5ff"/>
     </g>
     <g transform="translate(820 75)">
-      <rect width="350" height="78" fill="#070b08" stroke="#20452d"/><text x="18" y="25" fill="#6b7280" font-size="9" letter-spacing="2">CHANNEL.03 // LINKEDIN</text><text x="18" y="53" fill="#e6edf3" font-size="13">URL PENDING</text><circle cx="322" cy="39" r="5" fill="#a855f7" opacity=".65"/>
+      <rect width="350" height="78" fill="#070b08" stroke="#6f3ea5"/><text x="18" y="25" fill="#6b7280" font-size="9" letter-spacing="2">CHANNEL.03 // LINKEDIN</text><text x="18" y="53" fill="#a855f7" font-size="13">/in/puneet-mp</text><circle cx="322" cy="39" r="5" fill="#a855f7" opacity=".8"/>
     </g>
   </g>
 </svg>

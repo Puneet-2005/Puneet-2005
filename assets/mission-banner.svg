@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="110" viewBox="0 0 1200 110" role="img" aria-labelledby="title">
-  <title id="title">Active missions</title>
+  <title id="title">Pinned projects</title>
   <defs><pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#163326" opacity=".25"/></pattern></defs>
   <rect width="1200" height="110" rx="4" fill="#050805"/><rect x="1" y="1" width="1198" height="108" rx="4" fill="none" stroke="#1d3d29"/><rect width="1200" height="110" fill="url(#grid)"/>
   <path d="M28 22v66h12M1172 22v66h-12" fill="none" stroke="#39ff14"/>
-  <g font-family="monospace, Courier New"><text x="54" y="47" fill="#39ff14" font-size="14" letter-spacing="2">02 // ACTIVE MISSIONS</text><text x="54" y="77" fill="#e6edf3" font-size="18">SELECTED SYSTEMS // CURRENT BUILD QUEUE</text><text x="1146" y="62" text-anchor="end" fill="#6b7280" font-size="11">05 TARGETS LOCKED</text></g>
+  <g font-family="monospace, Courier New"><text x="54" y="47" fill="#39ff14" font-size="14" letter-spacing="2">02 // PINNED PROJECTS</text><text x="54" y="77" fill="#e6edf3" font-size="18">SELECTED REPOSITORIES // PROJECT INDEX</text><text x="1146" y="62" text-anchor="end" fill="#6b7280" font-size="11">06 REPOSITORIES PINNED</text></g>
 </svg>

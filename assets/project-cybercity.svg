@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="255" viewBox="0 0 1200 255" role="img" aria-labelledby="title desc">
+  <title id="title">Cyber City</title>
+  <desc id="desc">A responsive cyberpunk landing page with original inline SVG artwork and neon interface effects.</desc>
+  <defs><pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#163326" opacity=".22"/></pattern><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#0c1016"/><stop offset="1" stop-color="#050805"/></linearGradient><filter id="glow"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+  <rect width="1200" height="255" rx="4" fill="#050805"/><rect x="1" y="1" width="1198" height="253" rx="4" fill="none" stroke="#1d3d29"/><rect width="1200" height="255" fill="url(#grid)"/>
+  <g font-family="monospace, Courier New">
+    <text x="30" y="37" fill="#6b7280" font-size="11" letter-spacing="2">PINNED // 05</text><text x="1168" y="37" text-anchor="end" fill="#a855f7" font-size="11">WEB EXPERIENCE</text>
+    <path d="M30 50h1138" stroke="#173b27"/>
+    <text x="30" y="103" fill="#e6edf3" font-size="32" font-weight="700" letter-spacing="3">CYBER CITY</text>
+    <text x="30" y="132" fill="#a855f7" font-size="14" letter-spacing="2">CYBERPUNK LANDING PAGE</text>
+    <text x="30" y="163" fill="#9aa4b2" font-size="12">Responsive neon interface with original SVG artwork, scanlines,</text>
+    <text x="30" y="181" fill="#9aa4b2" font-size="12">particles, and restrained motion effects.</text>
+    <g transform="translate(30 195)" font-size="10"><text fill="#39ff14">[ HTML5 ]</text><text x="82" fill="#00f5ff">[ CSS3 ]</text><text x="154" fill="#39ff14">[ JAVASCRIPT ]</text><text x="276" fill="#a855f7">[ SVG ]</text></g>
+    <text x="30" y="237" fill="#6b7280" font-size="10">OPEN REPOSITORY  ↗  github.com/Puneet-2005/web-pade-cyber-city-</text>
+  </g>
+  <g transform="translate(780 76)">
+    <rect width="388" height="134" fill="url(#sky)" stroke="#20452d"/>
+    <circle cx="306" cy="30" r="15" fill="none" stroke="#a855f7" opacity=".7"/>
+    <g fill="#0d1712" stroke="#28573a"><path d="M14 116V69h48v47M70 116V38h58v78M136 116V59h44v57M188 116V24h70v92M266 116V51h42v65M316 116V72h58v44"/></g>
+    <g fill="#39ff14" opacity=".7" filter="url(#glow)"><rect x="82" y="51" width="7" height="5"/><rect x="99" y="51" width="7" height="5"/><rect x="201" y="38" width="8" height="5"/><rect x="222" y="38" width="8" height="5"/><rect x="201" y="54" width="8" height="5"/><rect x="278" y="65" width="7" height="5"/></g>
+    <g fill="#00f5ff" opacity=".65"><rect x="26" y="82" width="7" height="5"/><rect x="43" y="82" width="7" height="5"/><rect x="148" y="73" width="7" height="5"/><rect x="332" y="86" width="8" height="5"/><rect x="350" y="86" width="8" height="5"/></g>
+    <path d="M0 117h388M25 130h338" stroke="#a855f7" opacity=".4"/><path d="M184 117l-31 17M204 117l31 17" stroke="#00f5ff" opacity=".35"/>
+  </g>
+</svg>

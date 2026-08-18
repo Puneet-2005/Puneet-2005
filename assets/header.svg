@@ -34,7 +34,7 @@
 
     <text x="54" y="247" fill="#9aa4b2" font-size="14">&gt; INITIALIZING DEVELOPER PROFILE...</text>
     <text x="54" y="276" fill="#9aa4b2" font-size="14">&gt; LOCATION: <tspan fill="#e6edf3">BENGALURU, INDIA</tspan></text>
-    <text x="54" y="305" fill="#9aa4b2" font-size="14">&gt; STATUS: <tspan fill="#39ff14">BUILDING</tspan><tspan fill="#39ff14">█<animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;.45;.5;.95;1" dur="1s" repeatCount="indefinite"/></tspan></text>
+    <text x="54" y="305" fill="#9aa4b2" font-size="14">&gt; STATUS: <tspan fill="#39ff14">ONLINE</tspan><tspan fill="#39ff14">█<animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;.45;.5;.95;1" dur="1s" repeatCount="indefinite"/></tspan></text>
   </g>
 
   <g transform="translate(845 94)" font-family="monospace, Courier New" font-size="13">
@@ -45,7 +45,7 @@
     <text x="14" y="91" fill="#6b7280">BUILD</text><text x="105" y="91" fill="#39ff14">ACTIVE</text>
     <text x="14" y="123" fill="#6b7280">FOCUS</text><text x="105" y="123" fill="#00f5ff">AI × BACKEND</text>
     <text x="105" y="144" fill="#00f5ff">× SYSTEMS</text>
-    <text x="14" y="176" fill="#6b7280">CURRENT</text><text x="105" y="176" fill="#a855f7">APEXIQ</text>
+    <text x="14" y="176" fill="#6b7280">MISSION</text><text x="105" y="176" fill="#a855f7">SHIP SYSTEMS</text>
     <path d="M285 12h7v7M10 184v-7h7" fill="none" stroke="#39ff14"/>
   </g>
   <g opacity=".45" fill="#39ff14">

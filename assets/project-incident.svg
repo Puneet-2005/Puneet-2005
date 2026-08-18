@@ -4,11 +4,12 @@
   <defs><pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#163326" opacity=".22"/></pattern><filter id="glow"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
   <rect width="1200" height="255" rx="4" fill="#050805"/><rect x="1" y="1" width="1198" height="253" rx="4" fill="none" stroke="#1d3d29"/><rect width="1200" height="255" fill="url(#grid)"/>
   <g font-family="monospace, Courier New">
-    <text x="30" y="37" fill="#6b7280" font-size="11" letter-spacing="2">MISSION // 005</text><text x="1168" y="37" text-anchor="end" fill="#00f5ff" font-size="11">AGENT SYSTEM</text>
+    <text x="30" y="37" fill="#6b7280" font-size="11" letter-spacing="2">PINNED // 03</text><text x="1168" y="37" text-anchor="end" fill="#00f5ff" font-size="11">AGENT SYSTEM</text>
     <path d="M30 50h1138" stroke="#173b27"/>
     <text x="30" y="108" fill="#e6edf3" font-size="34" font-weight="700" letter-spacing="3">IR.AGENT</text>
-    <text x="30" y="139" fill="#00f5ff" font-size="14" letter-spacing="2">AI INCIDENT RESPONSE SYSTEM</text>
-    <text x="30" y="180" fill="#9aa4b2" font-size="12">SYSTEM PROFILE // DETAILS AVAILABLE IN REPOSITORY</text>
+    <text x="30" y="139" fill="#00f5ff" font-size="14" letter-spacing="2">LOCAL AI INCIDENT MEMORY AGENT</text>
+    <text x="30" y="174" fill="#9aa4b2" font-size="12">Recalls resolved incidents, analyzes local signals, and learns</text>
+    <text x="30" y="192" fill="#9aa4b2" font-size="12">from human-confirmed resolutions.</text>
     <text x="30" y="224" fill="#6b7280" font-size="10">OPEN REPOSITORY  ↗  github.com/Puneet-2005/incident-response-agent</text>
   </g>
   <g transform="translate(790 75)" font-family="monospace, Courier New">

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="255" viewBox="0 0 1200 255" role="img" aria-labelledby="title desc">
+  <title id="title">Real-Time Data Architecture Design</title>
+  <desc id="desc">A local Python prototype for a real-time dynamic pricing engine using simulated event signals.</desc>
+  <defs><pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#163326" opacity=".22"/></pattern><filter id="glow"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+  <rect width="1200" height="255" rx="4" fill="#050805"/><rect x="1" y="1" width="1198" height="253" rx="4" fill="none" stroke="#1d3d29"/><rect width="1200" height="255" fill="url(#grid)"/>
+  <g font-family="monospace, Courier New">
+    <text x="30" y="37" fill="#6b7280" font-size="11" letter-spacing="2">PINNED // 02</text><text x="1168" y="37" text-anchor="end" fill="#00f5ff" font-size="11">EVENT-DRIVEN PROTOTYPE</text>
+    <path d="M30 50h1138" stroke="#173b27"/>
+    <text x="30" y="96" fill="#e6edf3" font-size="28" font-weight="700" letter-spacing="2">REAL-TIME DATA ARCHITECTURE</text>
+    <text x="30" y="125" fill="#39ff14" font-size="14" letter-spacing="2">DYNAMIC PRICING ENGINE</text>
+    <text x="30" y="157" fill="#9aa4b2" font-size="12">Local Python prototype that ingests simulated travel-market events</text>
+    <text x="30" y="176" fill="#9aa4b2" font-size="12">and recalculates route prices from live demand signals.</text>
+    <g transform="translate(30 190)" font-size="10"><text fill="#39ff14">[ PYTHON ]</text><text x="86" fill="#00f5ff">[ NUMPY ]</text><text x="164" fill="#39ff14">[ COLORAMA ]</text><text x="270" fill="#00f5ff">[ EVENT STREAM ]</text></g>
+    <text x="30" y="237" fill="#6b7280" font-size="10">OPEN REPOSITORY  ↗  github.com/Puneet-2005/Real-Time-Data-Architecture-Design</text>
+  </g>
+  <g transform="translate(790 78)" font-family="monospace, Courier New">
+    <rect width="378" height="130" fill="#070b08" stroke="#20452d"/>
+    <g fill="#08150c" stroke="#28573a"><rect x="18" y="28" width="84" height="44"/><rect x="147" y="28" width="84" height="44"/><rect x="276" y="28" width="84" height="44"/></g>
+    <g font-size="9" text-anchor="middle"><text x="60" y="54" fill="#e6edf3">EVENTS</text><text x="189" y="54" fill="#e6edf3">PRICING</text><text x="318" y="54" fill="#e6edf3">TERMINAL</text></g>
+    <path d="M102 50h45M231 50h45" stroke="#39ff14" stroke-width="2" filter="url(#glow)"/><path d="m139 45 8 5-8 5M268 45l8 5-8 5" fill="none" stroke="#39ff14"/>
+    <g fill="#00f5ff"><circle cx="123" cy="50" r="3"/><circle cx="252" cy="50" r="3"/></g>
+    <path d="M18 96h342" stroke="#173b27"/><text x="18" y="115" fill="#6b7280" font-size="8" letter-spacing="1">SIMULATED SIGNAL FLOW // LOCAL RUNTIME</text>
+  </g>
+</svg>

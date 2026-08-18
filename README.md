@@ -3,44 +3,49 @@
 </p>
 
 <p align="center">
-  <img src="./assets/profile-card.svg" width="100%" alt="System profile for Puneet M P Bharadwaj" />
+  <img src="./assets/profile-card.svg" width="100%" alt="01 — System profile for Puneet M P Bharadwaj" />
 </p>
 
 <p align="center">
-  <img src="./assets/tech-matrix.svg" width="100%" alt="Technical capability matrix" />
+  <img src="./assets/tech-matrix.svg" width="100%" alt="System capabilities and technical matrix" />
 </p>
 
 <p align="center">
-  <img src="./assets/mission-banner.svg" width="100%" alt="Active missions" />
+  <img src="./assets/mission-banner.svg" width="100%" alt="02 — Pinned projects" />
 </p>
-
-<a href="https://github.com/Puneet-2005/apexiq-f1-energy-optimization">
-  <img src="./assets/project-apexiq.svg" width="100%" alt="ApexIQ — F1 energy and race intelligence" />
-</a>
-
-<a href="https://github.com/Puneet-2005/DevPulse">
-  <img src="./assets/project-devpulse.svg" width="100%" alt="DevPulse — developer intelligence system" />
-</a>
 
 <a href="https://github.com/Puneet-2005/personal-finance-dashboard">
-  <img src="./assets/project-finance.svg" width="100%" alt="Finance.OS — full-stack financial platform" />
+  <img src="./assets/project-finance.svg" width="100%" alt="Personal Finance Dashboard — full-stack financial platform" />
 </a>
 
-<a href="https://github.com/Puneet-2005/youtube-sumerization-ollama">
-  <img src="./assets/project-youtube.svg" width="100%" alt="YT.Intelligence — local AI video summarization" />
+<a href="https://github.com/Puneet-2005/Real-Time-Data-Architecture-Design">
+  <img src="./assets/project-architecture.svg" width="100%" alt="Real-Time Data Architecture Design — dynamic pricing engine" />
 </a>
 
 <a href="https://github.com/Puneet-2005/incident-response-agent">
-  <img src="./assets/project-incident.svg" width="100%" alt="IR.Agent — AI incident response system" />
+  <img src="./assets/project-incident.svg" width="100%" alt="Incident Response Agent — local AI incident memory agent" />
 </a>
 
-<p align="center">
-  <img src="./assets/contribution-banner.svg" width="100%" alt="Development activity" />
-</p>
+<a href="https://github.com/Puneet-2005/youtube-sumerization-ollama">
+  <img src="./assets/project-youtube.svg" width="100%" alt="YouTube Summarizer — local AI transcript summarization" />
+</a>
+
+<a href="https://github.com/Puneet-2005/web-pade-cyber-city-">
+  <img src="./assets/project-cybercity.svg" width="100%" alt="Cyber City — cyberpunk landing page" />
+</a>
+
+<a href="https://github.com/Puneet-2005/ClickHouse">
+  <img src="./assets/project-clickhouse.svg" width="100%" alt="ClickHouse — forked from ClickHouse/ClickHouse" />
+</a>
+
+<!-- Replace generic Chess.com play link with personal chess profile later if desired -->
+<a href="https://www.chess.com/play/online">
+  <img src="./assets/chess-board.svg" width="100%" alt="Chess terminal — play chess" />
+</a>
+<!-- Future option: integrate a GitHub Actions-powered README chess implementation without client-side JavaScript. -->
 
 <p align="center">
-  <img width="49%" src="https://streak-stats.demolab.com?user=Puneet-2005&amp;hide_border=true&amp;border_radius=2&amp;background=050805&amp;stroke=163326&amp;ring=39FF14&amp;fire=00F5FF&amp;currStreakNum=E6EDF3&amp;sideNums=E6EDF3&amp;currStreakLabel=39FF14&amp;sideLabels=6B7280&amp;dates=6B7280" alt="GitHub contribution streak" />
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Puneet-2005&amp;layout=compact&amp;langs_count=8&amp;hide_border=true&amp;bg_color=050805&amp;title_color=39ff14&amp;text_color=e6edf3&amp;icon_color=00f5ff&amp;border_radius=2&amp;custom_title=LANGUAGE%20TELEMETRY" alt="Most-used languages across public repositories" />
+  <img src="./assets/contribution-banner.svg" width="100%" alt="04 — Development activity" />
 </p>
 
 <p align="center">
@@ -54,26 +59,17 @@
 </picture>
 
 <p align="center">
-  <img src="./assets/developer-bots.svg" width="100%" alt="Pixel developer bot formation visualizing continuous progress" />
-</p>
-
-<p align="center">
-  <img src="./assets/transmission.svg" width="100%" alt="Transmission and contact channels" />
+  <img src="./assets/transmission.svg" width="100%" alt="05 — Public contact channels" />
 </p>
 
 <p align="center">
   <a href="https://github.com/Puneet-2005"><code>GITHUB // @Puneet-2005</code></a>
   &nbsp;&nbsp;·&nbsp;&nbsp;
-  <code>EMAIL // NOT PUBLIC</code>
+  <a href="mailto:puneetbharadwaj0@gmail.com"><code>EMAIL // puneetbharadwaj0@gmail.com</code></a>
   &nbsp;&nbsp;·&nbsp;&nbsp;
-  <code>LINKEDIN // URL PENDING</code>
+  <a href="https://www.linkedin.com/in/puneet-mp"><code>LINKEDIN // /in/puneet-mp</code></a>
 </p>
 
 <p align="center">
   <img src="./assets/footer.svg" width="100%" alt="End transmission — code, learn, build, repeat" />
 </p>
-
-<!--
-  Contact channels intentionally avoid guessed personal details.
-  Replace EMAIL // NOT PUBLIC and LINKEDIN // URL PENDING when public URLs are available.
--->

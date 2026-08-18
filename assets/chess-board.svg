@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+  <title id="title">Chess terminal</title>
+  <desc id="desc">A cyber-terminal chess dashboard showing a legal Marshall Attack position after black played queen from h4 to h3.</desc>
+  <defs>
+    <pattern id="hud-grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#163326" opacity=".22"/>
+    </pattern>
+    <pattern id="board" width="128" height="128" patternUnits="userSpaceOnUse">
+      <rect width="128" height="128" fill="#0c1411"/>
+      <rect width="64" height="64" fill="#182620"/>
+      <rect x="64" y="64" width="64" height="64" fill="#182620"/>
+    </pattern>
+    <linearGradient id="silver" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#f4f7f5"/><stop offset=".55" stop-color="#c5d0ca"/><stop offset="1" stop-color="#7f9188"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <style>
+    .mono{font-family:monospace,Courier New}.label{font:12px monospace;letter-spacing:2px;fill:#6b7280}.value{font:16px monospace;fill:#e6edf3}.white-piece{font:48px DejaVu Sans,Segoe UI Symbol,Noto Sans Symbols2,serif;fill:url(#silver);stroke:#43564d;stroke-width:.8;paint-order:stroke fill}.black-piece{font:48px DejaVu Sans,Segoe UI Symbol,Noto Sans Symbols2,serif;fill:#07100b;stroke:#00f5ff;stroke-width:1.25;paint-order:stroke fill}.coord{font:15px monospace;fill:#6b7280}
+  </style>
+
+  <rect width="1200" height="650" rx="4" fill="#050805"/>
+  <rect x="1" y="1" width="1198" height="648" rx="4" fill="none" stroke="#1d3d29"/>
+  <rect width="1200" height="650" fill="url(#hud-grid)"/>
+  <path d="M20 72V20h52M1128 20h52v52M20 578v52h52M1128 630h52v-52" fill="none" stroke="#39ff14" stroke-width="2" opacity=".72"/>
+
+  <g class="mono">
+    <text x="42" y="47" fill="#39ff14" font-size="16" letter-spacing="2">03 // CHESS TERMINAL</text>
+    <text x="1158" y="47" text-anchor="end" fill="#6b7280" font-size="12">TACTICAL BOARD // POSITION 15.W</text>
+  </g>
+  <path d="M42 62h1116" stroke="#173b27"/>
+
+  <!-- Legal position: Marshall Attack after 14...Qh3, White to move. -->
+  <g aria-label="Chess board">
+    <rect x="56" y="104" width="512" height="512" fill="url(#board)" stroke="#28573a" stroke-width="2"/>
+    <rect x="504" y="360" width="64" height="64" fill="#a855f7" opacity=".18" stroke="#a855f7" stroke-width="2"/>
+    <rect x="504" y="424" width="64" height="64" fill="#39ff14" opacity=".17" stroke="#39ff14" stroke-width="2" filter="url(#glow)"/>
+
+    <g class="coord" text-anchor="middle">
+      <text x="38" y="141">8</text><text x="38" y="205">7</text><text x="38" y="269">6</text><text x="38" y="333">5</text>
+      <text x="38" y="397">4</text><text x="38" y="461">3</text><text x="38" y="525">2</text><text x="38" y="589">1</text>
+      <text x="88" y="639">a</text><text x="152" y="639">b</text><text x="216" y="639">c</text><text x="280" y="639">d</text>
+      <text x="344" y="639">e</text><text x="408" y="639">f</text><text x="472" y="639">g</text><text x="536" y="639">h</text>
+    </g>
+
+    <g class="black-piece" text-anchor="middle" dominant-baseline="central">
+      <text x="88" y="136">♜</text><text x="216" y="136">♝</text><text x="408" y="136">♜</text><text x="472" y="136">♚</text>
+      <text x="408" y="200">♟</text><text x="472" y="200">♟</text><text x="536" y="200">♟</text>
+      <text x="88" y="264">♟</text><text x="216" y="264">♟</text><text x="280" y="264">♝</text>
+      <text x="152" y="328">♟</text><text x="280" y="328">♞</text>
+      <text x="536" y="456">♛</text>
+    </g>
+    <g class="white-piece" text-anchor="middle" dominant-baseline="central">
+      <text x="280" y="392">♙</text>
+      <text x="152" y="456">♗</text><text x="216" y="456">♙</text><text x="472" y="456">♙</text>
+      <text x="88" y="520">♙</text><text x="152" y="520">♙</text><text x="408" y="520">♙</text><text x="536" y="520">♙</text>
+      <text x="88" y="584">♖</text><text x="152" y="584">♘</text><text x="216" y="584">♗</text><text x="280" y="584">♕</text><text x="344" y="584">♖</text><text x="472" y="584">♔</text>
+    </g>
+    <path d="M56 122v-18h18M550 104h18v18M56 598v18h18M550 616h18v-18" fill="none" stroke="#00f5ff" opacity=".65"/>
+  </g>
+
+  <g transform="translate(610 96)" class="mono">
+    <rect width="550" height="520" fill="#070b08" stroke="#20452d"/>
+    <path d="M0 18V0h18M532 0h18v18M0 502v18h18M532 520h18v-18" fill="none" stroke="#39ff14" opacity=".65"/>
+
+    <g transform="translate(18 18)">
+      <rect width="194" height="72" fill="#08110b" stroke="#28573a"/>
+      <text class="label" x="14" y="24">PLAYER</text><text class="value" x="14" y="52" fill="#39ff14">PUNEET-2005</text>
+      <rect x="204" width="194" height="72" fill="#071216" stroke="#17515a"/>
+      <text class="label" x="218" y="24">MODE</text><text class="value" x="218" y="52" fill="#00f5ff">STRATEGY.EXE</text>
+      <rect x="408" width="106" height="72" fill="#0e0a13" stroke="#6f3ea5"/>
+      <text class="label" x="422" y="24">STATE</text><text x="422" y="52" fill="#39ff14" font-size="16">● READY</text>
+    </g>
+
+    <g transform="translate(18 112)">
+      <text fill="#39ff14" font-size="15" letter-spacing="2">CHESS // STRATEGY MODULE</text>
+      <path d="M0 17h514" stroke="#173b27"/>
+      <text x="0" y="58" fill="#e6edf3" font-size="24" font-weight="700" letter-spacing="2">CALCULATE.</text>
+      <text x="0" y="91" fill="#00f5ff" font-size="24" font-weight="700" letter-spacing="2">ADAPT.</text>
+      <text x="0" y="124" fill="#a855f7" font-size="24" font-weight="700" letter-spacing="2">EXECUTE.</text>
+      <text x="0" y="164" fill="#9aa4b2" font-size="15">Chess sharpens the same habits I use in engineering:</text>
+      <text x="0" y="188" fill="#9aa4b2" font-size="15">planning ahead, evaluating trade-offs, and adapting</text>
+      <text x="0" y="212" fill="#9aa4b2" font-size="15">under pressure.</text>
+    </g>
+
+    <g transform="translate(18 348)">
+      <rect width="122" height="62" fill="#08110b" stroke="#20452d"/><text class="label" x="12" y="23">BOARD</text><text class="value" x="12" y="47">8 × 8</text>
+      <rect x="130" width="122" height="62" fill="#08110b" stroke="#20452d"/><text class="label" x="142" y="23">MODE</text><text class="value" x="142" y="47">CLASSICAL</text>
+      <rect x="260" width="122" height="62" fill="#08110b" stroke="#20452d"/><text class="label" x="272" y="23">ENGINE</text><text class="value" x="272" y="47">HUMAN</text>
+      <rect x="390" width="124" height="62" fill="#08110b" stroke="#20452d"/><text class="label" x="402" y="23">STATUS</text><text x="402" y="47" fill="#39ff14" font-size="16">READY</text>
+    </g>
+
+    <g transform="translate(18 426)">
+      <rect width="228" height="66" fill="#071216" stroke="#17515a"/>
+      <text class="label" x="14" y="23">LAST MOVE</text><text x="14" y="49" fill="#00f5ff" font-size="17">Qh4 → h3</text>
+      <rect x="258" width="256" height="66" fill="#0c1a10" stroke="#39ff14"/>
+      <text x="386" y="41" text-anchor="middle" fill="#39ff14" font-size="18" font-weight="700" letter-spacing="1">[ PLAY CHESS → ]</text>
+    </g>
+  </g>
+</svg>
