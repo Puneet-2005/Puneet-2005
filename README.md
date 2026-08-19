@@ -47,7 +47,7 @@
 </p>
 
 <p align="center">
-  <img src="./assets/contribution-total.svg" width="100%" alt="GitHub contribution total for Puneet-2005 over the last 12 months" />
+  <img src="./assets/contribution-total.svg" width="100%" alt="GitHub contribution total for Puneet-2005 in the last year" />
 </p>
 
 <picture>

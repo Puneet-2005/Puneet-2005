@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
-  <title id="title">57 GitHub contributions in the last 12 months</title>
-  <desc id="desc">Live GitHub GraphQL contribution total for Puneet-2005, refreshed daily by GitHub Actions.</desc>
+  <title id="title">57 GitHub contributions in the last year</title>
+  <desc id="desc">Public GitHub profile contribution total for Puneet-2005, refreshed daily by GitHub Actions.</desc>
   <defs>
     <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#163326" opacity=".24"/></pattern>
     <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#39ff14"/><stop offset=".58" stop-color="#00f5ff"/><stop offset="1" stop-color="#a855f7"/></linearGradient>
@@ -21,9 +21,9 @@
       <rect width="500" height="190" fill="#070b08" stroke="#28573a"/>
       <path d="M0 18V0h18M482 0h18v18M0 172v18h18M482 190h18v-18" fill="none" stroke="#00f5ff" opacity=".6"/>
       <text x="24" y="31" fill="#6b7280" font-size="12" letter-spacing="2">TOTAL CONTRIBUTIONS</text>
-      <text x="24" y="119" fill="#e6edf3" font-size="86" font-weight="700" letter-spacing="2">60</text>
+      <text x="24" y="119" fill="#e6edf3" font-size="86" font-weight="700" letter-spacing="2">57</text>
       <rect x="24" y="139" width="452" height="3" fill="url(#signal)" opacity=".72" filter="url(#glow)"/>
-      <text x="24" y="171" fill="#39ff14" font-size="14" letter-spacing="2">LAST 12 MONTHS</text>
+      <text x="24" y="171" fill="#39ff14" font-size="14" letter-spacing="2">LAST YEAR</text>
     </g>
 
     <g transform="translate(570 88)">
@@ -33,9 +33,9 @@
       <text x="22" y="77" fill="#6b7280" font-size="11" letter-spacing="2">IDENTITY</text>
       <text x="176" y="77" fill="#e6edf3" font-size="15">@Puneet-2005</text>
       <text x="22" y="108" fill="#6b7280" font-size="11" letter-spacing="2">WINDOW</text>
-      <text x="176" y="108" fill="#e6edf3" font-size="15">ROLLING 12 MONTHS</text>
+      <text x="176" y="108" fill="#e6edf3" font-size="15">LAST YEAR</text>
       <text x="22" y="139" fill="#6b7280" font-size="11" letter-spacing="2">SOURCE</text>
-      <text x="176" y="139" fill="#e6edf3" font-size="15">GITHUB GRAPHQL</text>
+      <text x="176" y="139" fill="#e6edf3" font-size="15">GITHUB PUBLIC PROFILE</text>
       <text x="22" y="170" fill="#6b7280" font-size="11" letter-spacing="2">REFRESH</text>
       <text x="176" y="170" fill="#39ff14" font-size="15">DAILY // AUTOMATED</text>
       <g transform="translate(456 65)" fill="#173b27">

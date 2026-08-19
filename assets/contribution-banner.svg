@@ -7,7 +7,7 @@
   <g font-family="monospace, Courier New">
     <text x="54" y="48" fill="#39ff14" font-size="14" letter-spacing="2">04 // DEVELOPMENT SIGNAL</text>
     <text x="54" y="79" fill="#e6edf3" font-size="18">PUBLIC CONTRIBUTION TELEMETRY // LIVE DATA</text>
-    <text x="54" y="103" fill="#6b7280" font-size="10">TOTAL CONTRIBUTIONS // CONTRIBUTION SNAKE // GITHUB GRAPHQL</text>
+    <text x="54" y="103" fill="#6b7280" font-size="10">TOTAL CONTRIBUTIONS // CONTRIBUTION SNAKE // GITHUB PUBLIC PROFILE</text>
     <circle cx="1015" cy="62" r="5" fill="#39ff14" filter="url(#glow)"><animate attributeName="opacity" values="1;.25;1" dur="2s" repeatCount="indefinite"/></circle>
     <text x="1032" y="67" fill="#39ff14" font-size="12">FEED ONLINE</text>
   </g>
